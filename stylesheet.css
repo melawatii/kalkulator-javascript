@@ -1,7 +1,11 @@
+body {
+    background: linear-gradient(to right, rgb(255, 248, 183), rgb(224, 251, 255));
+}
+
 .calculator {
     text-align: center;
     margin:  0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
     width: 400px;
 }
 
@@ -15,6 +19,7 @@
     border: none;
     padding: 0 20px;
     box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .calculator-keys {
